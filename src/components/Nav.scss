@@ -1,0 +1,43 @@
+@import '../assets/sass/variables';
+
+.Nav-container {
+  width: 100%;
+  padding: 2rem;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 15rem;
+  margin: 0 auto;
+
+  &__links {
+    display: flex;
+    list-style-type: none;
+  }
+
+  &__link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0 1rem;
+    color: $color-brown-100;
+    font-weight: 600;
+  }
+
+  &__social-icons {
+    align-self: flex-end;
+
+    & img {width: 3.2rem};
+  }
+
+  & img[alt="home-icon"] {
+    width: 4rem;
+    align-self: flex-end;
+  }
+  & img[alt="instagram-icon"] {
+    margin-left: 3px;
+  }
+
+}
