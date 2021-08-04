@@ -1,0 +1,35 @@
+@import '../assets/sass/variables';
+
+.Objectives {
+  height: 100vh;
+  background-image: url('../assets/images/desktop/textura.jpg');
+
+  &__content {
+    max-width: 90rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  &__title {
+    color: $color-orange-100;
+    margin-bottom: 5rem;
+  }
+
+  &__textRow {
+    margin: 4rem 0;
+
+    & > h3 {
+      color: $color-orange-100;
+      font-size: 3.8rem;
+      margin-bottom: 1.75rem;
+    }
+
+    & > p {
+      color: $color-brown-100;
+      font-size: 2.1rem;
+      line-height: 1.75;
+      font-weight: 600;
+      text-align: justify;
+    }
+  }
+}

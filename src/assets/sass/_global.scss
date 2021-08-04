@@ -26,7 +26,7 @@ a {
 }
 
 section {
-  padding: 8rem 2rem;
+  padding: 15rem 2rem;
 }
 
 header,
@@ -35,6 +35,10 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.section-title {
+  font-size: 6.5rem;
 }
  
  /* Fonts */
