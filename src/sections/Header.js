@@ -4,8 +4,7 @@ import Logo from '../components/Logo'
 import backgroundURL from '../assets/images/desktop/header-bg-desktop.jpg';
 
 const styles = {
-  background: `url(${backgroundURL}) no-repeat center`,
-  backgroundSize: 'cover',
+  backgroundImage: `url(${backgroundURL})`,
   height: '240rem'
 }
 

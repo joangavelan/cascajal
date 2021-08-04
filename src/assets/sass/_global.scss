@@ -15,6 +15,27 @@ body {
   font-family: $font-primary;
   min-height: 100vh;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  padding: 8rem 2rem;
+}
+
+header,
+section,
+footer {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
  
  /* Fonts */
 /* mithella */
