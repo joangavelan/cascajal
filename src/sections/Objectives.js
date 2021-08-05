@@ -3,7 +3,7 @@ import './Objectives.scss'
 
 const Objectives = () => {
   return (
-    <section className="Objectives">
+    <section id="objetivos" className="Objectives">
       <div className="Objectives__content">
         <h2 className="Objectives__title section-title">Objetivos</h2>
         <div className="Objectives__textRow">

@@ -7,6 +7,10 @@ import señoraBgURL from "./assets/images/desktop/señora.jpg"
 import Croquis from "./sections/Croquis";
 import puenteBgURL from "./assets/images/desktop/puente.jpg"
 import Equipo from "./sections/Equipo";
+import vestigiosBgURL from "./assets/images/desktop/vestigios.jpg"
+import Aliados from "./sections/Aliados";
+import atardecerBgURL from "./assets/images/desktop/atardecer.jpg"
+
 
 function App() {
   return (
@@ -20,6 +24,9 @@ function App() {
       <Croquis />
       <section style={{backgroundImage: `url(${puenteBgURL})`, height: '100vh'}}></section>
       <Equipo />
+      <section style={{backgroundImage: `url(${vestigiosBgURL})`, height: '100vh'}}></section>
+      <Aliados />
+      <section style={{backgroundImage: `url(${atardecerBgURL})`, height: '100vh'}}></section>
     </div>
   );
 }

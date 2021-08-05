@@ -1,0 +1,49 @@
+@import '../assets/sass/variables';
+
+.Aliados {
+  background-image: url('../assets/images/desktop/textura.jpg');
+  height: 100vh;
+
+  &__content {
+    max-width: 132rem;
+    margin: 0 auto;
+  }
+
+  &__title {
+    color: $color-orange-100;
+    margin-bottom: 7rem;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 50rem;
+  }
+}
+
+.allyGroup {
+  width: 35rem;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+
+  &__role {
+    color: $color-green-300 ;
+    font-size: 2.6rem;
+    margin-bottom: 1.2rem;
+  }
+
+  &__institution {
+    color: $color-brown-100;
+    font-size: 2.4rem;
+
+    &-name {
+      text-transform: uppercase;
+      line-height: 1.25;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 2.5rem;
+    }
+  }
+}

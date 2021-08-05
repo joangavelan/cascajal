@@ -1,7 +1,8 @@
 @import '../assets/sass/variables';
 
 .Equipo {
-  background-image: url(../assets/images/desktop/textura.jpg);
+  background-image: url('../assets/images/desktop/textura.jpg');
+  height: 100vh;
 
   &__content {
     max-width: 132rem;
