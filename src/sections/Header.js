@@ -3,14 +3,9 @@ import Nav from '../components/Nav'
 import Logo from '../components/Logo'
 import backgroundURL from '../assets/images/desktop/header-bg-desktop.jpg';
 
-const styles = {
-  backgroundImage: `url(${backgroundURL})`,
-  height: '240rem'
-}
-
 const Header = () => {
   return (
-    <header className="header" style={styles}>
+    <header id="header" className="Header" style={{backgroundImage: `url(${backgroundURL})`, height: '240rem'}}>
       <Nav />
       <Logo />
     </header>
