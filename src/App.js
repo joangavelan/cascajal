@@ -6,6 +6,7 @@ import Program from "./sections/Program";
 import señoraBgURL from "./assets/images/desktop/señora.jpg"
 import Croquis from "./sections/Croquis";
 import puenteBgURL from "./assets/images/desktop/puente.jpg"
+import Equipo from "./sections/Equipo";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <section style={{backgroundImage: `url(${señoraBgURL})`, height: '100vh'}}></section>
       <Croquis />
       <section style={{backgroundImage: `url(${puenteBgURL})`, height: '100vh'}}></section>
+      <Equipo />
     </div>
   );
 }
