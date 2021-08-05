@@ -10,6 +10,7 @@ import Equipo from "./sections/Equipo";
 import vestigiosBgURL from "./assets/images/desktop/vestigios.jpg"
 import Aliados from "./sections/Aliados";
 import atardecerBgURL from "./assets/images/desktop/atardecer.jpg"
+import Contacto from "./sections/Contacto";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <section style={{backgroundImage: `url(${vestigiosBgURL})`, height: '100vh'}}></section>
       <Aliados />
       <section style={{backgroundImage: `url(${atardecerBgURL})`, height: '100vh'}}></section>
+      <Contacto />
     </div>
   );
 }

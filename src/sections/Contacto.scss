@@ -1,8 +1,68 @@
+@import '../assets/sass/variables';
+
 .Contacto {
   background-image: url('../assets/images/desktop/textura.jpg');
   height: 100vh;
   
   &__content {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
 
+  &__title {
+    color: $color-purple-100;
+    margin-bottom: 7rem;
+  }
+
+  &__form {
+
+    &-field {
+      position: relative;
+
+      &:not(:last-child) {
+        margin-bottom: 2rem; 
+      }
+    }
+
+    &-label {
+      position: absolute;
+      top: 1rem;
+      left: -10.5rem;
+      font-size: 2.3rem;
+      font-weight: 600;
+      color: $color-brown-100;
+    }
+
+    &-input {
+      width: 100%;
+      font-size: 2rem;
+      border: 2px solid $color-brown-300;
+      border-radius: 3rem;
+      padding: 1rem 1.5rem;
+      outline: none;
+      color: $color-brown-100;
+      font-family: inherit;
+    }
+
+    &-submit {
+      display: block;
+      font-size: 2rem;
+      padding: 1.2rem 3.8rem;
+      border: 2px solid $color-purple-100;
+      background-color: $color-white;
+      color: $color-purple-100;
+      font-family: inherit;
+      font-weight: 600;
+      border-radius: 3rem;
+      margin: 0 auto;
+      margin-top: 8rem;
+      cursor: pointer;
+      transition: .3s ease;
+
+      &:hover {
+        background-color: $color-purple-100;
+        color: $color-white;
+      }
+    }
   }
 }
