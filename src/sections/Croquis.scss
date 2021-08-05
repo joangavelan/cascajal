@@ -1,0 +1,24 @@
+@import '../assets/sass/variables';
+
+.Croquis {
+  background-image: url('../assets/images/desktop/croquis-bg.jpg');
+
+  &__title {
+    color: $color-green-100;
+    margin-bottom: 3rem;
+  }
+
+  &__content {
+    max-width: 135rem;
+    margin: 0 auto;
+
+    & > img {
+      display: block;
+      width: 100%;
+    }
+
+    & > img:nth-child(2) {
+      margin-bottom: 15rem;
+    }
+  }
+}
