@@ -1,4 +1,4 @@
-import luciaImgURL from '../assets/images/empty-user.png'
+import luciaImgURL from '../assets/images/lucia rojas.png'
 import thonyImgUrl from '../assets/images/thony juarez.png'
 import joanImgUrl from '../assets/images/joan gavelan.png'
 import davidImgUrl from '../assets/images/david aguedo.png'
